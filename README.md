@@ -1,5 +1,15 @@
 # CRUD Database-template
 
+This is a template I created that will let you in a few steps build the front end and server built for a crud app.
+
+Comes with a customizable login and signup form static page, all necessary middleware and can connect to any database that you wish.
+
+Plus a linked up boiler plate for testing.
+
+Save an hour with CRUD-TEMPLATE with a fully connected TDD/BDD Authenticated App.
+
+Follow the steps to get started.
+
 ## Getting Started
 
 Fork and Clone into whatever directory you do that in.
