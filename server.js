@@ -42,10 +42,12 @@ const checkAuth = function(req, res, next) {
 }
 
 // Declare routes variables
-
+const users = require('routes/users.js');
+const token = require('routes/token.js');
 
 // Assign Routes to Server
-
+app.use(users);
+app.use(tokens);
 
 
 const port = process.env.PORT || 3000;

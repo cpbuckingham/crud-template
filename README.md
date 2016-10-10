@@ -10,6 +10,8 @@ Save an hour with CRUD-TEMPLATE with a fully connected TDD/BDD Authenticated App
 
 Follow the steps to get started.
 
+Feel free to submit pull requests!
+
 ## Getting Started
 
 Fork and Clone into whatever directory you do that in.
