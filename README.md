@@ -1,4 +1,4 @@
-# CRUD Database-template
+# RESTful App Maker
 
 This is a template I created that will let you in a few steps build the front end and server built for a crud app.
 
@@ -6,7 +6,7 @@ Comes with a customizable login and signup form static page, all necessary middl
 
 Plus a linked up boiler plate for testing.
 
-Save an hour with CRUD-TEMPLATE with a fully connected TDD/BDD Authenticated App.
+Save an hour with RESTful App Maker with a fully connected TDD/BDD Authenticated App.
 
 Follow the steps to get started.
 
