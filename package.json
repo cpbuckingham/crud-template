@@ -13,7 +13,7 @@
     "heroku-postbuild": "knex migrate:latest",
     "nodemon": "nodemon server.js"
   },
-  "author": "Tosin Awofeso <midastouchproductions@gmail.com>",
+  "author": "FIRSTNAME LASTNAME <EMAIL@DOMAIN.COM>",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",

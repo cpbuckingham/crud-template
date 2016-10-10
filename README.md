@@ -1,6 +1,30 @@
 # CRUD Database-template
 
+## Getting Started
+
+Fork and Clone into whatever directory you do that in.
+
+Rename folder to project.
+
+`mv crud_template YOUR_PROJECT`
+
+`cd` into YOUR_PROJECT.
+
 Install Dependencies
+
+```
+npm install
+```
+
+## PACKAGE.JSON
+
+Name the app in [package.json](package.json)
+
+`"name": "app_name",`
+
+Make yourself the author
+
+`"author": "FIRSTNAME LASTNAME <EMAIL@DOMAIN.COM>",`
 
 ```
 npm install
@@ -14,9 +38,32 @@ connection: {
             database: 'INSERT DATABASE HERE'
 ```
 
-Create your secret session key
+Name your session `server.js`
 
+```
+app.use(session({
+  name: 'NAME OF PROJECT',
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: true,
+  cookie: {}
+}))
+```
+
+Create your secret session key and .env file in terminal
 
 ```
 bash -c 'echo "SESSION_SECRET="$(openssl rand -hex 64)' > .env
+```
+
+## Testing
+
+go to the [test folder](test/server_spec.js);
+
+Before you write tests just fill in the Suite headers and sub headers and then in the `it` blocks fill in the user stories for your app
+
+```
+ it('User Story 1', (done) => {
+     done();
+ })
 ```

@@ -16,6 +16,38 @@
     <title>Sign Up</title>
   </head>
   <body>
-    <h1>Sign Up</h1>
+    <main>
+        <h1 class="page-title">Sign Up</h1>
+
+<!-- Customize sign up form -->
+        <div class="form-container" id='signup-form'>
+            <div class="wrapper">
+                <form class="signup-form" action="/users" method="post">
+                  <div class="field">
+                    <input type="text" placeholder="First Name" name='fname'>
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="Last Name" name='lname'>
+                  </div>
+                  <div class="field">
+                    <input type="text" placeholder="Email" name='email'>
+                  </div>
+                  <div class="field">
+                    <input type="password" placeholder="Password" name='password'>
+                  </div>
+                  <div class="field">
+                    <input type="password" placeholder="Confirm Password">
+                  </div>
+
+                  <input type="submit" value="Join Now"></button>
+
+
+                </form>
+
+            </div>
+
+        </div>
+        </div>
+    </main>
   </body>
 </html>

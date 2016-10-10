@@ -7,16 +7,19 @@ const request = require('supertest');
 const app = require('../server');
 const knex = require('../knex');
 
-describe('description', () => {
 
-  describe('description', () => {
+describe('***SUITE HEADER***', () => {
 
-    it('description', (done) => {
+    xdescribe('suite subheader', () => {
 
-      expect(true).to.equal(false);
+        it('User Story 1', (done) => {
+            done();
+        })
+
+        it('User Story 2', (done) => {
+            done();
+        })
 
     });
-
-  });
 
 });
