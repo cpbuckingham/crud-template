@@ -36,10 +36,6 @@ Make yourself the author
 
 `"author": "FIRSTNAME LASTNAME <EMAIL@DOMAIN.COM>",`
 
-```
-npm install
-```
-
 Add databases in `knexfile.js`
 
 ```
